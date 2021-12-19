@@ -48,7 +48,7 @@ section .left-side {
   background-size: 100% 100%;
   padding: 0 50px;
   background-origin: content-box, content-box;
-  height: auto;
+  min-height: 100%;
   width: 30%;
 }
 section .left-side .logo-area {
@@ -58,7 +58,7 @@ section .left-side .logo-area {
 section .right-side {
   background-color: #0984e3;
   width: 70%;
-  height: auto;
+  min-height: 100%;
   text-align: left;
   padding-left: 25%;
   padding-top: 10%;
@@ -126,7 +126,7 @@ section .right-side {
   background-color: #ff7675;
   color: #fff;
 }
-#forgot-pass {
+.forgot-pass {
   display: inline-block;
   text-decoration: none;
   color: #fff;
@@ -134,7 +134,7 @@ section .right-side {
   letter-spacing: 0.5px;
   font-family: initial;
 }
-#forgot-pass:hover {
+.forgot-pass:hover {
   text-decoration: underline;
   color: #81ecec;
 }
@@ -172,4 +172,18 @@ section .right-side {
 #register {
   border-color: #fff;
   color: #fff;
+}
+#reset-email {
+  width: 35%;
+}
+#reset-link {
+  width: 38%;
+  padding: 10px 0;
+  margin: 12px 0 5px 0;
+}
+.sign-in-account {
+  margin-bottom: 450px;
+}
+section .forgot-pass-field {
+  padding-top: 15%;
 }
