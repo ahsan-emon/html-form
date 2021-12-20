@@ -1,16 +1,16 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 header {
-  background-color: #74b9ff;
-  padding: 25px 0;
-  border: 2px solid #fff;
+  background-color: rgb(116, 185, 255);
+  padding: 25px 0px;
+  border: 2px solid rgb(255, 255, 255);
 }
 header ul li img {
-  width: 50px;
+  width: 40px;
   border-radius: 10px;
-  height: 17px;
+  height: 20px;
   margin-right: 10px;
 }
 .header-area {
@@ -21,34 +21,34 @@ header ul li img {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-}
-header ul {
+  align-items: center;
   list-style: none;
 }
 header ul li a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 22px;
   font-family: "Bebas Neue", cursive;
   font-weight: 400;
+  letter-spacing: 1px;
 }
 header ul li a:hover {
-  color: #ff7675;
+  color: rgb(255, 118, 117);
 }
 .flex-content2 {
   display: flex;
 }
 section {
-  border: 2px solid #fff;
+  border: 2px solid rgb(255, 255, 255);
+  height: 850px;
 }
 section .left-side {
   background-image: url("../images/graphic2.svg");
-  background-color: #54a0ff;
+  background-color: rgb(84, 160, 255);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding: 0 50px;
+  padding: 0px 50px;
   background-origin: content-box, content-box;
-  min-height: 100%;
   width: 30%;
 }
 section .left-side .logo-area {
@@ -56,34 +56,36 @@ section .left-side .logo-area {
   padding-top: 30px;
 }
 section .right-side {
-  background-color: #0984e3;
+  background-color: rgb(9, 132, 227);
   width: 70%;
-  min-height: 100%;
-  text-align: left;
-  padding-left: 25%;
-  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .right-side .form-items {
+  width: 35%;
 }
 .right-side .form-top-area h1 {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-family: "Abril Fatface", cursive;
-  width: 42%;
+  width: 90%;
   font-weight: 500;
   padding-bottom: 20px;
 }
 .right-side .form-top-area p {
   font-family: auto;
-  color: #fff;
-  width: 35%;
+  color: rgb(255, 255, 255);
+  width: 80%;
   padding-bottom: 30px;
 }
 .right-side .button a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 18px;
   display: inline-block;
   font-family: monospace;
   font-weight: bold;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid rgb(255, 255, 255);
   padding-bottom: 5px;
   margin-bottom: 20px;
   margin-right: 15px;
@@ -94,57 +96,55 @@ section .right-side {
   color: rgba(255, 255, 255, 0.5);
 }
 .right-side .button a:nth-child(2):hover {
-  border-color: #fff;
-  color: #fff;
+  border-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 .right-side form input {
-  display: block;
   margin-bottom: 10px;
   padding: 12px 15px;
-  width: 43%;
+  width: 100%;
   border: none;
   outline: none;
   border-radius: 6px;
   font-size: 16px;
-  color: #30336b;
+  color: rgb(48, 51, 107);
 }
 .right-side form input::placeholder {
   font-size: 14px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .right-side form input[type="submit"] {
-  width: 15%;
+  width: 30%;
   padding: 10px 0px;
   font-size: 16px;
-  color: #54a0ff;
+  color: rgb(84, 160, 255);
   font-family: inherit;
   font-weight: bold;
   cursor: pointer;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .right-side form input[type="submit"]:hover {
-  background-color: #ff7675;
-  color: #fff;
+  background-color: rgb(255, 118, 117);
+  color: rgb(255, 255, 255);
 }
 .forgot-pass {
   display: inline-block;
   text-decoration: none;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 18px;
   letter-spacing: 0.5px;
   font-family: initial;
 }
 .forgot-pass:hover {
   text-decoration: underline;
-  color: #81ecec;
+  color: rgb(129, 236, 236);
 }
 .flex-content3 {
   display: flex;
   justify-content: space-between;
 }
 .login-with {
-  padding-bottom: 25%;
-  width: 33%;
+  width: 70%;
   margin-top: 50px;
 }
 .login-with ul {
@@ -156,7 +156,7 @@ section .right-side {
 }
 .login-with ul li a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 .login-with ul li a:hover {
   text-decoration: underline;
@@ -166,24 +166,15 @@ section .right-side {
   color: rgba(255, 255, 255, 0.5);
 }
 #login:hover {
-  border-color: #fff;
-  color: #fff;
+  border-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 #register {
-  border-color: #fff;
-  color: #fff;
-}
-#reset-email {
-  width: 35%;
+  border-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 #reset-link {
-  width: 38%;
-  padding: 10px 0;
-  margin: 12px 0 5px 0;
-}
-.sign-in-account {
-  margin-bottom: 450px;
-}
-section .forgot-pass-field {
-  padding-top: 15%;
+  width: 107%;
+  padding: 10px 0px;
+  margin: 10px 0px 8px;
 }
