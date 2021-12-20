@@ -46,8 +46,9 @@ header nav h1 a:hover {
   border-radius: 50%;
   background-color: red;
   position: absolute;
-  top: 13%;
-  left: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .lathi {
   width: 200px;

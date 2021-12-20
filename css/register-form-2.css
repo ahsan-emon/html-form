@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(135deg, #74aede, #9467ba);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-area {
+  width: 50%;
+  height: 600px;
+  background-color: #fff;
+  box-shadow: 5px 5px 50px #000;
+  margin: 100px;
+  border-radius: 7px;
+}
+.form-layout {
+  width: 95%;
+  margin: auto;
+  padding: 30px 0 50px 0;
+}
