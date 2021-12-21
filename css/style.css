@@ -37,9 +37,17 @@ header ul li a {
   font-family: "Bebas Neue", cursive;
   font-weight: 400;
   letter-spacing: 1px;
+  padding: 2px 5px;
 }
 header ul li a:hover {
-  color: rgb(255, 118, 117);
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 2px 5px;
+  border-radius: 7px;
+}
+header ul li:nth-child(4) a:hover {
+  background-color: #74b9ff;
+  padding: 2px 5px;
+  border-radius: 0;
 }
 .flex-content2 {
   display: flex;
@@ -184,3 +192,23 @@ section .right-side .form-items {
   padding: 10px 0px;
   margin: 10px 0px 8px;
 }
+
+/* register nested menu part style start here  */
+header .flex-content1 .dropdown {
+  list-style: none;
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+header .flex-content1 li:last-child:hover .dropdown {
+  list-style: none;
+  display: block;
+  padding: 10px 5px;
+}
+.dropdown li a:hover {
+  background-color: rgba(116, 185, 255, 0.4);
+  border-radius: 0;
+  width: 100%;
+}
+
+/* register nested menu part style end here  */
