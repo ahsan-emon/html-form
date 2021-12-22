@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- header area start here  -->
@@ -22,6 +25,12 @@
                 <li><a href="https://www.youtube.com/c/AhsanUllahEmon"><img src="images/youtube.png" alt="Youtube logo"></a></li>
                 <li><a href="register-form-2.html">Register From 2</a></li> 
                 <li><a href="flag.html">BD Flag</a></li>
+                <li><a href="">Websites</a>
+                    <ul class="dropdown">
+                        <li><a href="https://ahsan-emon.github.io/Facebook-page-website/">Facebook</a></li>
+                        <li><a href="https://ahsan-emon.github.io/Bikroy-website/">Bikroy.com</a></li>
+                    </ul>
+                </li>
                 <li><a href="">Social</a>
                     <ul class="dropdown">
                         <li><a href="https://www.facebook.com/ahsanullah.emon/">Facebook</a></li>
@@ -40,22 +49,38 @@
                 <form action="">
                     <fieldset class="form-fieldset">
                         <legend>Registration</legend>
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" placeholder="Enter your name" autocomplete="off">
-                        <label for="username">Username</label>
-                        <input type="text" id="username" placeholder="Enter your username" autocomplete="off">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" placeholder="Enter your email" autocomplete="off">
-                        <label for="phone">Phone Number</label>
-                        <input type="text" name="" id="phone" placeholder="Enter your number" autocomplete="off">
-                        <label for="age">Age</label>
-                        <input type="text" id="age" placeholder="Enter your age" onfocus="(this.type='number')" autocomplete="off">
-                        <label for="pass">Password</label>
-                        <input type="password" name="" id="pass" placeholder="Enter your password" autocomplete="off">
-                        <label for="dob">Date of Birth</label>
-                        <input type="text" id="dob" placeholder="Enter your date of birth" onfocus="(this.type='date')">
-                        <label for="time">Appointment Time</label>
-                        <input type="text" id="time" placeholder="Enter your appointment time" onfocus="(this.type='time')">
+                        <p>
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" placeholder="Enter your name" autocomplete="off">
+                        </p>
+                        <p>
+                            <label for="username">Username</label>
+                            <input type="text" id="username" placeholder="Enter your username" autocomplete="off">
+                        </p>
+                        <p>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Enter your email" autocomplete="off">
+                        </p>
+                        <p>
+                            <label for="phone">Phone Number</label>
+                            <input type="text" name="" id="phone" placeholder="Enter your number" autocomplete="off">
+                        </p>
+                        <p>
+                            <label for="age">Age</label>
+                            <input type="text" id="age" placeholder="Enter your age" onfocus="(this.type='number')" autocomplete="off">
+                        </p>
+                        <p>
+                            <label for="pass">Password</label>
+                            <input type="password" name="" id="pass" placeholder="Enter your password" autocomplete="off">
+                        </p>
+                        <p>
+                            <label for="dob">Date of Birth</label>
+                            <input type="text" id="dob" placeholder="Enter your date of birth" onfocus="(this.type='date')">
+                        </p>
+                        <p>
+                            <label for="time">Appointment Time</label>
+                            <input type="text" id="time" placeholder="Enter your appointment time" onfocus="(this.type='time')">
+                        </p>
                         <fieldset>
                             <legend>Gender</legend>
                             <p>
@@ -66,7 +91,7 @@
                             </p>
                         </fieldset>
                         <fieldset>
-                            <legend>Select Language</legend>
+                            <legend>Language</legend>
                             <p>
                                 <input type="checkbox" id="checkbox1"><label for="checkbox1">Bangla</label>
                             </p>
@@ -77,17 +102,23 @@
                                 <input type="checkbox" id="checkbox3"><label for="checkbox3">Hindi</label>
                             </p>
                         </fieldset>
-                        <label for="">Country</label>
-                        <select name="" id="">
-                            <option value="Select your region">Select your region</option>
-                            <option value="">Bangladesh</option>
-                            <option value="">America</option>
-                            <option value="">Canada</option>
-                        </select>
-                        <label for="message">Appointment reason</label>
-                        <textarea name="" id="message" cols="30" rows="3" placeholder="Enter your appointment reason"></textarea>
-                        <input type="submit" value="Register">
-                        <button type="reset">Reset</button>
+                        <p>
+                            <label for="">Country</label>
+                            <select name="" id="">
+                                <option value="Select your region">Select your region</option>
+                                <option value="">Bangladesh</option>
+                                <option value="">America</option>
+                                <option value="">Canada</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="message">Appointment reason</label>
+                            <textarea name="" id="message" cols="30" rows="3" placeholder="Enter your appointment reason"></textarea>
+                        </p>
+                        <p class="flex-content1">
+                            <input type="submit" value="Register">
+                            <button type="reset">Reset</button>
+                        </p>
                     </fieldset>
                 </form>
             </div>

@@ -6,6 +6,7 @@ body {
   background: linear-gradient(135deg, #74aede, #9467ba);
   background-repeat: no-repeat;
   background-size: 100%;
+  font-family: "Oswald", sans-serif;
 }
 section {
   display: flex;
@@ -14,7 +15,6 @@ section {
 }
 .form-area {
   width: 50%;
-  height: 600px;
   background-color: #fff;
   box-shadow: 5px 5px 50px #000;
   margin: 100px;
@@ -31,4 +31,96 @@ form .form-fieldset {
 }
 form .form-fieldset fieldset {
   padding: 10px 5px;
+}
+.form-fieldset {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.form-fieldset p input {
+  padding: 7px 8px;
+  outline: none;
+  margin: 5px 0;
+  font-size: 15px;
+  width: 60%;
+}
+.form-fieldset p {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+.form-fieldset p label {
+  width: 30%;
+}
+.form-fieldset fieldset {
+  width: 100%;
+  margin-bottom: 5px;
+}
+.form-fieldset p button {
+  padding: 7px 8px;
+  outline: none;
+  margin: 5px 0;
+  font-size: 15px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  background: linear-gradient(115deg, rgb(255, 0, 103), rgb(255, 91, 74));
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.form-fieldset p button:hover {
+  background: linear-gradient(
+    115deg,
+    rgb(255, 0, 103, 0.9),
+    rgb(255, 91, 74, 0.9)
+  );
+}
+.form-fieldset p select {
+  width: 100%;
+  padding: 10px 5px;
+  outline: none;
+}
+.form-fieldset p textarea {
+  width: 55%;
+  padding: 5px 5px;
+  outline: none;
+  margin-top: 5px;
+}
+.form-fieldset p input[type="submit"] {
+  width: 100%;
+  margin-top: 20px;
+  background: linear-gradient(90deg, #74aede, #9467ba);
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.form-fieldset p input[type="submit"]:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(116, 174, 222, 0.9),
+    rgba(148, 103, 186, 0.9)
+  );
+}
+.form-fieldset legend {
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.form-fieldset fieldset p {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 15%;
 }

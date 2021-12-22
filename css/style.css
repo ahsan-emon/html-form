@@ -200,7 +200,8 @@ header .flex-content1 .dropdown {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.3);
 }
-header .flex-content1 li:last-child:hover .dropdown {
+header .flex-content1 li:last-child:hover .dropdown,
+header .flex-content1 li:nth-child(7):hover .dropdown {
   list-style: none;
   display: block;
   padding: 10px 5px;
