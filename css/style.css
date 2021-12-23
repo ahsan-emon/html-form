@@ -75,7 +75,7 @@ section .left-side .logo-area {
 }
 section .right-side {
   background-color: rgb(9, 132, 227);
-  width: 70%;
+  flex-grow: 1;
   display: flex;
   justify-content: center;
   align-items: center;
