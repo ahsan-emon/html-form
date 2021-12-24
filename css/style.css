@@ -7,11 +7,6 @@ header {
   padding: 25px 0px;
   border: 2px solid rgb(255, 255, 255);
 }
-header ul li img {
-  width: 50px;
-  border-radius: 10px;
-  margin-right: 10px;
-}
 header nav ul li:nth-child(2),
 header nav ul li:nth-child(3) {
   display: flex;
