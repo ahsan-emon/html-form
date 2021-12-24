@@ -24,7 +24,7 @@ header ul li:nth-child(4) img {
   margin: 0;
 }
 .header-area {
-  width: 60%;
+  width: 70%;
   margin: auto;
 }
 .flex-content1 {
@@ -205,7 +205,8 @@ header .flex-content1 .dropdown {
   background-color: rgba(0, 0, 0, 0.3);
 }
 header .flex-content1 li:last-child:hover .dropdown,
-header .flex-content1 li:nth-child(7):hover .dropdown {
+header .flex-content1 li:nth-child(7):hover .dropdown,
+header .flex-content1 li:nth-child(5):hover .dropdown {
   list-style: none;
   display: block;
   padding: 10px 5px;
