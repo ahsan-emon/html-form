@@ -77,6 +77,8 @@
   padding: 10px 0 10px 5px;
   margin-bottom: 10px;
   outline: none;
+  border: 0.3px solid;
+  border-radius: 3px;
 }
 .register-form form input[type="submit"] {
   width: 100%;
@@ -88,4 +90,8 @@
   padding: 12px 0;
   box-shadow: 4px 5px 5px #1a1919;
   margin-top: 10px;
+  cursor: pointer;
+}
+.register-form form input[type="submit"]:hover {
+  background: rgba(0, 128, 0, 0.92);
 }
