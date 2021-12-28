@@ -7,11 +7,6 @@ header {
   padding: 25px 0px;
   border: 2px solid rgb(255, 255, 255);
 }
-header nav ul li:nth-child(2),
-header nav ul li:nth-child(3) {
-  display: flex;
-  align-items: center;
-}
 header ul li:nth-child(4) img {
   width: 50px;
   height: 35px;
@@ -198,6 +193,7 @@ header .flex-content1 .dropdown {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 5px #000;
 }
 header .flex-content1 li:last-child:hover .dropdown,
 header .flex-content1 li:nth-child(7):hover .dropdown,
@@ -211,5 +207,7 @@ header .flex-content1 li:nth-child(5):hover .dropdown {
   border-radius: 0;
   width: 100%;
 }
-
+.dropdown li:nth-child(4) a:hover {
+  background-color: rgba(116, 185, 255, 0.4);
+}
 /* register nested menu part style end here  */
