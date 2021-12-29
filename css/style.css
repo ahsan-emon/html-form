@@ -1,10 +1,12 @@
+/* font link  */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
 * {
   margin: 0px;
   padding: 0px;
 }
 header {
   background-color: rgb(116, 185, 255);
-  padding: 25px 0px;
+  padding: 22px 0px;
   border: 2px solid rgb(255, 255, 255);
 }
 header ul li:nth-child(4) img {
@@ -14,7 +16,7 @@ header ul li:nth-child(4) img {
   margin: 0;
 }
 .header-area {
-  width: 70%;
+  width: 75%;
   margin: auto;
 }
 .flex-content1 {
@@ -27,16 +29,18 @@ header ul li:nth-child(4) img {
 header ul li a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  font-size: 22px;
-  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  font-family: "Merriweather", serif;
+  text-transform: uppercase;
   font-weight: 400;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
+  padding: 8px 5px;
   padding: 2px 5px;
+  border-radius: 4px;
 }
 header ul li a:hover {
   background-color: rgba(255, 255, 255, 0.2);
-  padding: 2px 5px;
-  border-radius: 7px;
+  transition-duration: 0.2s;
 }
 header ul li:nth-child(4) a:hover {
   background-color: #74b9ff;
@@ -192,15 +196,14 @@ header .flex-content1 .dropdown {
   list-style: none;
   display: none;
   position: absolute;
+  padding: 10px 5px;
   background-color: rgba(0, 0, 0, 0.3);
-  box-shadow: 2px 2px 5px #000;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
 }
 header .flex-content1 li:last-child:hover .dropdown,
 header .flex-content1 li:nth-child(7):hover .dropdown,
 header .flex-content1 li:nth-child(5):hover .dropdown {
-  list-style: none;
   display: block;
-  padding: 10px 5px;
 }
 .dropdown li a:hover {
   background-color: rgba(116, 185, 255, 0.4);
